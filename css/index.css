@@ -104,8 +104,57 @@ body .wrap .layout3 p {
 
 body .wrap .layout4 {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-color: black;
+  position: relative;
+}
+
+body .wrap .layout4 .layList {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+body .wrap .layout4 .nemo {
+  top: 50%;
+  left: 50%;
+  transform: translate(-76%, -75%);
+  width: 500px;
+  height: 500px;
+  z-index: 100;
+}
+
+body .wrap .layout4 .nemo2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -15%);
+}
+
+body .wrap .layout4 .one {
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, -20%);
+  z-index: 99;
+  width: 350px;
+  height: 350px;
+}
+
+body .wrap .layout4 .tri {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+}
+
+body .wrap .layout4 .star {
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -80%);
+  width: 350px;
+  height: 350px;
 }
 
 body .wrap .layout5 {
@@ -184,4 +233,38 @@ body .wrap .layout7 p {
   color: white;
   font-family: 'Barrio', cursive;
   font-size: 200px;
+}
+
+body .wrap .layout8 {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+}
+
+body .wrap .layout9 {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+}
+
+body .wrap .layout10 {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+}
+
+body .wrap .layout11 {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  position: relative;
+}
+
+body .wrap .layout11 .line {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
