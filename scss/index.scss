@@ -164,10 +164,70 @@ body{
         .layout8{
             width: 100%; height: 100vh;
             background-color: #000000;
+            .codingProject{
+                width: 46%;
+                height: inherit;
+                margin: 0 auto;
+                .condingPro1{
+                    width: 100%;
+                    height: 40vh;
+                    display: flex;
+                        align-items: flex-end;
+                        justify-content: end;
+                    p{
+                        font-family: 'Barrio', cursive;
+                        color: white;
+                        font-size: 80px;
+                        margin: -70px 0;
+                    }
+
+                }
+
+
+                .codingPro{
+                    width: 45%;
+                    height: 60vh;
+                    float: left;
+                    p{
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: bold;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        padding: 85px 0 25px 0;
+                        color: white;
+
+                    }
+                    .view{
+                        margin: 0 auto;
+                        width: 130px;
+                        height: 30px;
+                        padding: 10px;
+                        border: 1px solid white;
+                        text-align: center;
+                        font-size: 10px;
+                        font-family: 'Passion One', cursive;
+                        color: white;
+                        font-size: 20px;
+                        line-height: 30px;
+
+                    }
+
+                }
+                .codingPro2{
+                    width: 55%;
+                    height: 60vh;
+                    float: left;
+                    img{
+                        max-width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+                }
+            }
         }
         .layout9{
             width: 100%; height: 100vh;
-            background-color: #000000;
+            background-color: #b13232;
         }
         .layout10{
             width: 100%; height: 100vh;
